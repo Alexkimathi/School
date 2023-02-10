@@ -66,7 +66,7 @@ function Links() {
                 <a>
                   <IoLocation />
                   <span>
-                    International House, Mezzanine floor, Njuri Ncheke Street. P.O
+                    Githongo Market, Next to Githongo Sub-County Hospital And Law Courts. P.O
                     Box 263-60200 Meru
                   </span>
                 </a>

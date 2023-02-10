@@ -5,6 +5,7 @@ import pic from "../../img/Principal.jpg";
 
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
+import About from "../About/About";
 
 function Carousel() {
   const [currImg, setCurrImg] = useState(0);
@@ -33,6 +34,10 @@ function Carousel() {
           </div>
         </div>
       </div>
+      <div>
+        <About />
+      </div>
+      
 
       <div className="sect-2">
         <div className="msg">
