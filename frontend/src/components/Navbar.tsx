@@ -2,7 +2,7 @@
 import image from '../img/Logo.jpg'
 import "./Navbar.css";
 import {FaBars, FaTimes} from "react-icons/fa";
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 
 function Navbar() {
     const [showLinks, setShowLinks] = useState(false)
@@ -23,7 +23,6 @@ function Navbar() {
 
         <button className="nav-btn">
             <FaBars />
-
         </button>
 
       

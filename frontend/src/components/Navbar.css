@@ -4,35 +4,35 @@
    
   }
   nav{
+    position:sticky;
+    top: 0;
+    width: auto;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #1b2430;
-    padding: .3rem 4rem;
+    padding: 2rem 4rem;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,0.06);
 
   }
   .navbar{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: 30rem;
+    justify-content:space-around;
    
   }
 
-  .nav-btn #hidden{
-    display: flex;
 
-  }
  
   .navbar li{
     list-style: none;
     padding: 0 1rem;
-    position: relative;
+    /* position: relative; */
   }
   .navbar li a{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: #fff;
     transition: 0.3s ease-in-out;
@@ -46,12 +46,12 @@
   .navbar li a:hover::after,
   .navbar li a.active::after{
     content: "";
-    width: 30%;
-    height: 2px;
+    width: 50%;
+    height: .2rem;
     background-color:#17cf97;
     position: absolute;
-    bottom: -4px;
-    left: 20px;
+    bottom: -.2rem;
+    left: 1rem;
   }
 
   .mobile i {
@@ -66,13 +66,11 @@
         border-radius: 50%;
        
       }
+   
+
       nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #1b2430;
-        /* padding: 1rem 4rem; */
-        box-shadow: 0 .5rem 1.5rem rgba(0,0,0,0.06);
+       
+        width:auto;
     
       }
       .navbar{
@@ -82,15 +80,20 @@
       .navbar li{
         display: none;
       }
+
+      .nav-btn #hidden{
+        display:none
+    
+      }
       .navbar li a{
        display: none;
     
       }
       .nav-btn #hidden{
         position: absolute;
-        left: 0px;
-        top: 80px;
-        height: 230px;
+        left: 0rem;
+        top: 8rem;
+        height: 23rem;
         width: 100%;
         background-color: red;
     
