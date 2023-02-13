@@ -1,9 +1,9 @@
 
 
-// import React from "react";
+import React from "react";
 import logo from "../../img/Logo.jpg";
 import "./footer.css";
-// import data from "./data";
+import data from "./data";
 import { AiFillPhone } from "react-icons/ai";
 import { MdAttachEmail } from "react-icons/md";
 import { AiFillClockCircle } from "react-icons/ai";
@@ -19,7 +19,7 @@ function Links() {
                 <h2 className="logo__text">Githongo polytechnic</h2>
               </div>
               <hr className="line" />
-              {/* <div className="header__socials">
+              <div className="header__socials">
                 {data.map((item) => (
                   <a
                     key={item.id}
@@ -30,7 +30,7 @@ function Links() {
                     {item.icon}
                   </a>
                 ))}
-              </div> */}
+              </div>
             </div>
     
             <div>
