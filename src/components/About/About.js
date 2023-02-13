@@ -15,18 +15,16 @@ function About() {
         <div className="col-1-of-2">
           <h3 className="heading-tertiary u-margin-bottom-small">VISION</h3>
           <p className="paragraph">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, enim
-            distinctio! Dolore, culpa. Aspernatur soluta enim laboriosam, magnam
-            est ad, sint vero officiis dolore, veniam tempora quos vitae eius
-            eos?
+            To be a world class polytechnic for sustainable development.
+            Excel in Skills and Technology And to be a center f excellence in Technical and vocational Education And
+            Training(TVET)
           </p>
 
           <h3 className="heading-tertiary u-margin-bottom-small">MISSION</h3>
           <p className="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            natus vel minima cum sunt fugit quibusdam libero iste dignissimos
-            reiciendis harum vitae,placeat dolore debitis accusamus recusandae
-            quisquam molestiae numquam!
+            To provide trainees with globally competitive education and
+            training, research skills; and provision of consultancy services for
+            sustainable development.
           </p>
           <a href="/" className="btn-text">
             Learn more &rarr;
