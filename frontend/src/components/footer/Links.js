@@ -1,9 +1,9 @@
 
 
-import React from "react";
+// import React from "react";
 import logo from "../../img/Logo.jpg";
 import "./footer.css";
-import data from "./data";
+// import data from "./data";
 import { AiFillPhone } from "react-icons/ai";
 import { MdAttachEmail } from "react-icons/md";
 import { AiFillClockCircle } from "react-icons/ai";
