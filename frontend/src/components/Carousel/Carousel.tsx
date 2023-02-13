@@ -5,7 +5,8 @@ import pic from "../../img/Principal.jpg";
 
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
-import About from "../About/About";
+import About from './../About/About';
+
 
 function Carousel() {
   const [currImg, setCurrImg] = useState(0);
